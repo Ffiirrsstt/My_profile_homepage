@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300;500&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.txt{
+    font-family: 'Sarabun', sans-serif;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#my_nav{
+    display: flex;
+    background-color : #100c41;
+    position:fixed ;
+    top: 0px;
+    align-items: center;
+    width:100%;
+    height:15vh;
+}
+
+#nav_flex_1{
+    display: flex;
+    flex: 0.3;
+    justify-content: center;
+}
+
+#nav_flex_2{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    font-size: 30px ;
+}
+
+#myProfile{
+    font-size:36px;
+}
+
+#chanNel{
+    margin-bottom: 100px;
+}
+
+#introduce{
+    padding: 90px 90px 40px 90px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.imgfor_main{
+    flex: 1;
+    flex-direction: column;
+    width: 33%;
+    height: 45vh;
+}
+
+#inTroDuce{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#My_main{
+    background-color: white;
+    font-size: 48;
+    padding-top : 50px;
+}
+
+#inTroDuce_bottom{
+    display: flex;
+    padding: 90px 90px 80px 90px;
+}
+
+#box{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+#myVideo{
+    width: 100%;
+    height: 70vh;
+}
+
+#introduce_contact{
+    flex: 1;
+}
+
+#INinTroDuce_bottom{
+    width:70%;
+    margin-left: 90px;
+    padding: 30px;
+    height:25vh;
+    background-color: #011f4b;
+    border-radius: 30px;
+    color: white;
+}
+
+.font_24{
+    font-size: clamp(2px, 2vw, 24px);
+    text-align: justify;
+}
+
+#contact{
+    margin: 30px 0px 0px 90px;
+    padding: 20px 30px 50px 30px;
+    width:70%;
+    height: 20vh;
+    background-color: #dfdfe4;
+    border-radius: 30px;
+}
+
+.buTton{
+    display: flex;
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 5px #ececf1;
+    background-color: #100c41;
+    width: 100%;
+    height: 6vh;
+    border-radius: 15px;
+}
+
+.conTact{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Con_Tact{
+    width: 100%;
+    height: 17vh;
+}
+
+.main{
+    background-color:#dfdfe4;
+}
+
+#skill_main{
+    padding: 180px 90px;
+}
+
+.Flex{
+    display: flex;
+    width: 100%;
+}
+
+.imgSkill{
+    height: 15vh;
+}
+
+.img_skill{
+    height: 20vh;
+}
+
+.skill_flex{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    border-radius: 50px;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#replit_box{
+    background-color: #100c41;
+}
+
+#github_box{
+    background-color: white;
+}
+
+.space{
+    margin-bottom: 50px;
+}
+
+.txt_shadow{
+    text-shadow: 2px 2px 2px black;
+}
+
+.button{
+    font-size: xx-large;
+    margin-bottom: 5px;
+    height: 20vh;
+    width: 30vw;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: 	#bfbdd0;
+    color: white;
+}
+
+.link1 button:hover{
+    background-color: 	white;
+    text-shadow: 2px 2px 2px #dfdfe4;
+    color: #100c41;
+}
+
+.link2 button:hover{
+    background-color: 	#100c41;
+    text-shadow: 2px 2px 2px silver;
+}
+
+.mar_bottom_90{
+    margin-bottom: 180px;
+}
+
+.tiTle{
+    font-size: xx-large;
+    margin: 20px;
+}
+
+#main_end{
+    text-align: center;
+    font-size: larger;
+    padding-top: 360px;
+    padding-bottom: 180px;
+}
+
+#end{
+    position: relative;
+    width: 100%;
+    height:15vh;
+    background-color: #100c41;} 
+
+#navEnd{
+    padding: 0px 60px 0px 60px;
+    height:10vh;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;   
+    font-size: xx-large;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #FFCCCC;
+    cursor: default;
+    text-decoration: none;
+}
+
+.dropDown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color:#100c41;
+    left: 0px;
+    bottom:15vh;
+}
+
+.buttonDropdown{
+    display: none;
+}
+
+.buttonDropdown{
+    width: 300px;
+    height:10vh;
+    font-size:22px;
+    color: white;
+    background-color: #100c41;
+    display: none;
+}
+
+#box_fordropdown{
+    position: absolute;
+    width: 23%;
+    height: 15vh;
+    left: 0px;
+    bottom: 0vh;
+}
+
+#box_fordropdown:hover .buttonDropdown{
+    display: block;
+}
